@@ -73,7 +73,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // fetch data from server -> bot's response
-  const response = await fetch("http://localhost:5002", {
+  const response = await fetch("https://codex-z2l9.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
